@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("image1.jpg");
+    background-size: cover;
+}
+
+#container{
+    width:100%;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    background-color: rgba(0,0,255,0.5);
+}
+
+nav{
+    margin-left:30%;
+}
+
+a{
+    margin-left: 50px;
+    padding: 40px;
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#sticker1{
+    height:500px;
+    width:500px;
+    position: relative;
+    top: 280px;
+    left: 300px;
+}
+
+#sticker2{
+    height:100px;
+    width:100px;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+    border: 2px solid lightblue;
+    border-radius: 50%;
+    padding: 20px;
+    background-image: url("image2.webp");
+}
+
+#sticker2:hover {
+    background-image:url("image1.jpg");
+}
+
+#content{
+    color:aliceblue;
+}
+
+#sounds{
+    position: relative;
+    top: -10px;
+    left: 450px;
+    width: fit-content;
+    font-size: 60px;
+    text-shadow: 10px 10px 50px aliceblue;
+}
+
+#listen{
+    position: relative;
+    top: 250px;
+    left:300px;
+    font-size: 50px;
+    font-weight: bolder;
+    width:fit-content;
+    color:aqua;
+    text-shadow: 10px 10px 20px aqua;
+    font-style:italic;
+}
+
+a:hover{
+    text-shadow: 10px 10px 20px aliceblue;
+}
